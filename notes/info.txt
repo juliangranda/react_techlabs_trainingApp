@@ -1,0 +1,8 @@
+para crear la aplicacion use este
+
+https://github.com/facebook/create-react-app
+
+
+para errores usar este
+
+https://github.com/facebook/create-react-app/issues/8190
