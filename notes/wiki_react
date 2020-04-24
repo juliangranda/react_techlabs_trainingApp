@@ -1,0 +1,4 @@
+props =  
+        son las propiedades de los componentes 
+        estos se utilizan para poder mandar de un componente
+        a otro informacion o datos entre si.
