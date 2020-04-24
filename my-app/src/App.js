@@ -10,6 +10,16 @@ class App extends Component{
       { name: 'Crystal', age: 25, belt: 'pink', id: 3},
     ]
   }
+  addNinja = (ninja) => {
+    //console.log(ninja);
+    ninja.id = Math.random();
+    //... significa que esta haciendo una copia de esa matriz y el otro elemento es el que se esta 
+    //añadiendo a la matriz ninjas que se clono para no destruir la anterior
+    let ninjas = [...this.state.ninjas, ninja];
+    this.setState({
+      ninjas: ninjas
+    })
+  }
   render(){
     return(
       <div className="App">
@@ -18,7 +28,7 @@ class App extends Component{
 
       
       <Ninjas ninjas = { this.state.ninjas }/>
-      <AddNinja />
+      <AddNinja addNinja = { this.addNinja }/>
     </div>
     );
   }
