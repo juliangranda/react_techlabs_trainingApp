@@ -2,3 +2,23 @@ props =
         son las propiedades de los componentes 
         estos se utilizan para poder mandar de un componente
         a otro informacion o datos entre si.
+
+
+note = coding each component is different
+UI component =
+        don't contain state(*)
+        receive data from props
+        only concerned with UI
+        use functions to create
+
+
+Container component = 
+        contain state
+        contain lifecycle hooks
+        not concernet with UI
+        use classes to create(create a normal react component)
+
+
+this = 
+        this solo se utiliza para componentes de estado
+        props se usa principalmente para componentes UI
