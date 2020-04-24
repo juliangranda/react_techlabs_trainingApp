@@ -1,3 +1,6 @@
+setState =
+        permite modificar el estado de una variable o dato
+
 props =  
         son las propiedades de los componentes 
         estos se utilizan para poder mandar de un componente
