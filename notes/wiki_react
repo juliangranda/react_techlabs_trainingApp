@@ -1,3 +1,6 @@
+setState =
+        permite modificar el estado de una variable o dato
+
 props =  
         son las propiedades de los componentes 
         estos se utilizan para poder mandar de un componente
@@ -22,3 +25,21 @@ Container component =
 this = 
         this solo se utiliza para componentes de estado
         props se usa principalmente para componentes UI
+
+nota importante = 
+        para llevar acabo el router se debe instalar el siguiente paquete
+        npm install react-router-dom
+
+Link y NavLink = 
+        Link y NavLiknk son librerias que se usan para el enrutador cuya funcion es evitar solicitudes adicionales al servidor mediante la URl
+        lo que permite que sea mas rapido y suave ,haciendo que en vez de una solicitud al servidor simplemente se cambie al componente pedido
+
+        Diferencia entre Link y NavLink
+        link solo genera una etiqueta para enlaces  pero navlink lo que hace es trabajar por medio de enlaces o clases activas
+
+redireccionamiento= 
+        esta se puede usar para redirigir una pagina a otra utilizando props del component y utilizando history.push
+
+        withRouter = se utiliza para sobrealimentar las props del componente
+        esto con el fin de que el navbar tenga props antes de utilizar los componentes para redireccionar y asi es como 
+        se redirecciona usando la propiedad history

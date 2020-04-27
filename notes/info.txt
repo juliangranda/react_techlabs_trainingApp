@@ -6,3 +6,8 @@ https://github.com/facebook/create-react-app
 para errores usar este
 
 https://github.com/facebook/create-react-app/issues/8190
+
+
+para hacer un router se debe de instalar el siguiente paquete
+
+npm install react-router-dom
