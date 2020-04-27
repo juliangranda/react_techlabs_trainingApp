@@ -1,5 +1,7 @@
 import React from 'react';
 
+//se importa componente de orden superior
+import Rainbow from '../hoc/Rainbow';
 const About = () => {
 
     return (
@@ -10,4 +12,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Rainbow(About);
