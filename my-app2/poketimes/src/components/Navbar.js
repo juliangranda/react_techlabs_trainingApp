@@ -5,10 +5,7 @@ import { Link, NavLink, withRouter } from 'react-router-dom'
 //esto con el fin de que el navbar tenga props antes de utilizar los componentes para redireccionar
 
 const Navbar = (props) => {
-    //redireccionamiento desde navbar
-    setTimeout(() => {
-        props.history.push('/about')
-    }, 5000)
+
 
     return (
         <nav className = "nav-wrapper red darken-3">

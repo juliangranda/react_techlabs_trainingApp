@@ -43,3 +43,8 @@ redireccionamiento=
         withRouter = se utiliza para sobrealimentar las props del componente
         esto con el fin de que el navbar tenga props antes de utilizar los componentes para redireccionar y asi es como 
         se redirecciona usando la propiedad history
+
+
+switch tag = 
+        le da prioridad a un componente o ruta a la vez y no permite que se unan o juntes
+        mas de 1 elemento ya que switch o interruptor solo permite uno a la vez
