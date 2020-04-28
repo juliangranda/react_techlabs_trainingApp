@@ -1,3 +1,7 @@
+the most important thing:the react cheet sheet
+https://devhints.io/react
+
+
 para crear la aplicacion use este
 
 https://github.com/facebook/create-react-app
@@ -25,3 +29,4 @@ axios se usa para obtener datos de api rest externas o aplicaciones que queremos
 
 generador de datos falsos para archivo json con el fin de desarrollo de pruebas con datos fake 
 https://jsonplaceholder.typicode.com/
+
