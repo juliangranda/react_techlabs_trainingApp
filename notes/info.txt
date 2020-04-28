@@ -11,3 +11,17 @@ https://github.com/facebook/create-react-app/issues/8190
 para hacer un router se debe de instalar el siguiente paquete
 
 npm install react-router-dom
+
+
+para la parte de axios
+
+instalar axios con lo siguiente desde la carpeta principal
+
+cd poketimes
+npm install axios
+
+axios se usa para obtener datos de api rest externas o aplicaciones que queremos mostrar en nuestra pagina web o aplicacion
+
+
+generador de datos falsos para archivo json con el fin de desarrollo de pruebas con datos fake 
+https://jsonplaceholder.typicode.com/
